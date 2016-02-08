@@ -12,7 +12,7 @@ html {
 
 /* START HEADER AND NAV */
 header {
-  background-image: url("/wats1010-embedded-media/img/monkaa_monkeyhang.jpg");
+  background-image: url("../img/monkaa_monkeyhang.jpg");
   background-repeat: no;
   background-size: 100%;
   color: white;
