@@ -151,7 +151,7 @@ aside li a:hover {
 
 /* START LISTEN */
 #listen {
-  background-image: url("/img/monkey_crystal.jpg");
+  background-image: url("../img/monkey_crystal.jpg");
   background-repeat: no;
   background-size: 100%;
   color: white;
