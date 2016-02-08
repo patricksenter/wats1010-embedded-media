@@ -5,6 +5,237 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
+html {
+      color: green;
+      font-family: 'Helvetica', 'Arial';
  }
+
+/* START HEADER AND NAV */
+header {
+  background-image: url("/img/monkaa_monkeyhang.jpg");
+  background-repeat: no;
+  background-size: 100%;
+  color: white;
+  width: 100%;
+  height: 500px;
+  margin: -10px;
+  padding: 10px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 75px;
+  letter-spacing: 10px;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+}
+
+header p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #000;
+}
+/* END HEADER AND NAV */
+
+/* START SOCIAL */
+aside {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  margin: -10px;
+  padding: 10px;
+  color: white;
+  background: black;
+  text-align: center;
+}
+
+aside h2 {
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 15px;
+  letter-spacing: 10px;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+aside li {
+  float: right;
+}
+
+aside li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+aside li a:hover {
+  background-color: #333;
+}
+/* END SOCIAL */
+
+/* BEGIN WATCH */
+#watch {
+  background-color: black;
+  background-size: 100%;
+  color: white;
+  margin: -10px;
+  padding: 10px;
+}
+
+#watch h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+#watch h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#watch p {
+  font-size: 12px;
+  text-align: center;
+}
+
+#watch a {
+  color: white;
+}
+
+/* END WATCH */
+
+/* START LISTEN */
+#listen {
+  background-image: url("/img/monkey_crystal.jpg");
+  background-repeat: no;
+  background-size: 100%;
+  color: white;
+  width: 100%;
+  height: 500px;
+  margin: -10px;
+  padding: 10px;
+}
+
+#listen h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+}
+
+#listen p {
+  font-size: 12px;
+  text-align: center;
+}
+
+#listen a {
+  color: white;
+}
+/* END LISTEN */
+
+/* BEGIN ABOUT */
+#about {
+  background-color: white;
+  background-size: 100%;
+  color: black;
+  margin: -10px;
+  padding: 10px;
+  border-top: 1px solid black;
+  padding-bottom: 200px;
+}
+
+#about h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+#about p {
+  text-transform: none;
+  text-align: left;
+  font-size: 20px;
+}
+
+#about ul {
+  list-style-type: none;
+  display: inline;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  
+}
+
+#about a {
+  color: black;
+}
+/* END ABOUT */
+
+/* BEGIN FOOTER */
+footer {
+  background-color: black;
+  background-size: 100%;
+  color: white;
+  margin: -10px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+}
+
+footer p {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 14px;
+}
+
+footer a {
+  color: white;
+}
+/* END FOOTER */
